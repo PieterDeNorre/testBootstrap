@@ -1,0 +1,63 @@
+body {
+	background-color: #555555;
+}
+.main-area {
+	@extend .row;
+}
+.column {
+	@extend .col-md-4;
+	min-height: 50px;
+	line-height: 50px;
+}
+.content {
+	@extend .col-xs-6;
+	@extend .col-sm-6;
+}
+.content {
+	background-color: red;
+	color: white;
+}
+
+.sidebar {
+	@extend .col-xs-4;
+	@extend .col-sm-4;
+	background-color: blue;
+	color: white;
+}
+.side-nav {
+	@extend .col-sm-2;
+	@extend .col-sm-2;
+	background-color: yellow;
+	color: black;
+	transform: rotate(5deg);
+	-webkit-transform: rotate(5deg);
+	-ms-transform:rotate(5deg);
+}
+.intro {
+	height: 100px;
+	background: white;
+}
+section {
+	padding: 0;
+	margin: 0;
+}
+.container {
+	padding: 0;
+	height: auto;
+}
+ul {
+	padding: 0;
+	margin: 0;
+	width: auto;
+	height: 70px;
+	background: yellow;
+	li {
+		display: block;
+		float: left;
+		padding: 10px;
+		&:hover {
+			background: red;
+			cursor: pointer;
+		}
+	}
+}
