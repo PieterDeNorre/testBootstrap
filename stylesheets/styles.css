@@ -8562,8 +8562,13 @@ body {
   background-color: #E1E1E1;
   cursor: pointer;
 }
+/* line 41, ../sass/_test.scss */
+.column .contcol {
+  background-color: #D6D6D6;
+  padding: 10px;
+}
 
-/* line 43, ../sass/_test.scss */
+/* line 47, ../sass/_test.scss */
 .glyphicon {
   float: right;
 }

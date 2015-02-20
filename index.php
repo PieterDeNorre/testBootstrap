@@ -31,8 +31,10 @@
 					  <a class="navbar-brand" href="#">Brand</a>
 					</div>
 			</div><!-- /.container-fluid -->
-			</nav>
+		</nav>
+		<section class="intro">
 			<div class="container">
+
 				<div class="page-header"><h1>Testing 123.</h1></div>
 				<div class="jumbotron">
 					<h1>Hello, world!</h1>
@@ -40,22 +42,31 @@
 					<p><a class="btn btn-primary btn-lg">Learn more</a></p>
 				</div>
 			</div>
-		<div class="container">
+		</section>
+		<section class="info">
+			<div class="container">
 
 				<div class="column col-md-6 col-xs-12 hideme">
-					<h5>Titel 1 bij wijze van test &nbsp;<span class="glyphicon glyphicon-plus"></span></h4>
-					<p>Lorem de lorem ipsum antec dolores Lorem de lorem ipsum antec dolores Lorem de lorem ipsum antec dolores Lorem de lorem ipsum antec dolores</p>
+					<div class="contcol">
+						<h5>Titel 1 bij wijze van test &nbsp;<span class="glyphicon glyphicon-plus"></span></h4>
+						<p>Lorem de lorem ipsum antec dolores Lorem de lorem ipsum antec dolores Lorem de lorem ipsum antec dolores Lorem de lorem ipsum antec dolores</p>
+					</div>
 				</div>
 				<div class="column col-md-6 col-xs-12">
-					<h5>Titel 2 bij wijze van test &nbsp;<span class="glyphicon glyphicon-plus"></span></h4>
-					<p>Lorem de lorem ipsum antec dolores Lorem de lorem ipsum antec dolores Lorem de lorem ipsum antec dolores Lorem de lorem ipsum antec dolores</p>
+					<div class="contcol">
+						<h5>Titel 2 bij wijze van test &nbsp;<span class="glyphicon glyphicon-plus"></span></h4>
+						<p>Lorem de lorem ipsum antec dolores Lorem de lorem ipsum antec dolores Lorem de lorem ipsum antec dolores Lorem de lorem ipsum antec dolores</p>
+					</div>
 				</div>
 				<div class="column col-md-12 col-xs-12">
-					<h5>Titel 3 bij wijze van test &nbsp;<span class="glyphicon glyphicon-plus"></span></h4>
-					<p>Lorem de lorem ipsum antec dolores Lorem de lorem ipsum antec dolores Lorem de lorem ipsum antec dolores Lorem de lorem ipsum antec dolores</p>
+					<div class="contcol">
+						<h5>Titel 3 bij wijze van test &nbsp;<span class="glyphicon glyphicon-plus"></span></h4>
+						<p>Lorem de lorem ipsum antec dolores Lorem de lorem ipsum antec dolores Lorem de lorem ipsum antec dolores Lorem de lorem ipsum antec dolores</p>
+					</div>
 				</div>
 
-		</div>
+			</div>
+		</section>
 		<script type="text/javascript" src="javascripts/global.js"></script>
 	</body>
 </html>

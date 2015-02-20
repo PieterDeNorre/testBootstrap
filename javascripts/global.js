@@ -1,11 +1,11 @@
 $(document).ready(function() {
 
-	$(".column > p").hide();
+	$(".contcol > p").hide();
 
-	$('.column').bind('click', function(event) {
+	$('.contcol').bind('click', function(event) {
 		event.preventDefault();
 		$(".glyphicon").removeClass('glyphicon-minus').addClass('glyphicon-plus');
-		$(".column > p").hide();
+		$(".contcol > p").hide();
 		$("#append").remove();
 		/* Act on the event */
 		$(this).children('p').show();
